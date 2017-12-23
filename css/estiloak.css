@@ -1,0 +1,133 @@
+/*menua*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6E6E6E;
+	font-family: Helvetica;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Punteroa gainean dagoela, kolorea aldatu*/
+li a:hover {
+    background-color: #BDBDBD;
+}
+.karratua {
+  width: 90%;
+  display: table;
+  margin:  auto;
+  background-color:#E6E6E6;
+}
+.subkarratua {
+  width: 60%;
+  display: table;
+  margin:  auto;
+  background-color:#BDBDBD;
+  border-radius: 8px;
+}
+.textua {
+  width: 40%;
+  display: table;
+  margin:  auto;
+  font-family:calibri;
+  text-align: center;
+}
+label{
+    display: block;
+    text-align: center;
+}
+
+#map {
+height: 400px;
+width: 100%;
+}
+table
+{
+ border:none;
+ border-collapse: collapse;
+ border-spacing:0px;
+ padding:0px;
+table-layout: fixed;
+ width:100%;
+}
+table td
+{
+ font-family:amaranth;
+ padding: 5px;
+ font-size: large;
+ border-left: 1px solid #808080;
+ border-right: 1px solid #808080;
+ text-align:center;
+  height:120px;
+
+}
+table td:first-child
+{
+border-left: none;
+}
+
+table td:last-child
+{
+border-right: none;
+}
+th
+{
+    width: 100px;
+
+ font-family:calibri;
+ font-weight:bold;
+ color:white;
+ background-color:#5360d6;
+ opacity:0.8;
+ text-align:center;
+ font-size:large;
+ padding:5px;
+ border-left: 1px solid #808080;
+ border-right: 1px solid #808080;
+ border-bottom: 1px solid #808080;
+
+}
+table th:first-child
+{
+border-left: none;
+}
+table th:last-child
+{
+border-right: none;
+}
+
+tr:nth-child(2n)
+{
+ background-color: #f4f4ef;
+}
+.isPromoted
+{
+ width:120px;
+ height:40px;
+}
+.erroreMezua{
+	color:#ff4d4d;
+  background-color: #F6CECE;
+	font-family:calibri;
+  font-weight: bold;
+}
+.onartuaMezua{
+	color:green;
+  background-color: #CEF6D8;
+	font-family:calibri;
+  font-weight: bold;
+}
+
+/**************************************************************************/
