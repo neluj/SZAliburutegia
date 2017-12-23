@@ -1,0 +1,91 @@
+/* Full-width input fields */
+input,textarea,select {
+    width: 60%;
+    padding: 12px 20px;
+    margin: auto;
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	border-radius: 8px;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    background-color: #f44336;
+    text-align: center;
+  font-family:calibri;
+    color: black;
+    padding: 0px;
+    border: none;
+    cursor: pointer;
+    width: 55%;
+  border: 1px solid #ccc;
+}
+.submitbtn {
+	display:block;
+	margin:auto;
+	border-radius: 10px;
+    background-color: #4CAF50;
+	color: white;
+    padding: 11px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+	top: 50%;
+
+}
+.actionbtn {
+	display:block;
+	margin:auto;
+	border-radius: 10px;
+    background-color: #0040FF;
+	color: white;
+    padding: 11px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+	top: 50%;
+
+}
+.infobtn {
+    background-color: #FFFF66;
+    text-align: center;
+	font-family:calibri;
+    color: black;
+    padding: 0px;
+    border: none;
+    cursor: pointer;
+    width: 55%;
+	border: 1px solid #ccc;
+}
+.alokatubtn {
+    background-color: #58FA82;
+    text-align: center;
+	font-family:calibri;
+    color: black;
+    padding: 0px;
+    border: none;
+    cursor: pointer;
+    width: 55%;
+	border: 1px solid #ccc;
+}
+
+.submitbtn:disabled {
+    background: #A9F5BC;
+}
